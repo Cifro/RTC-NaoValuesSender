@@ -18,20 +18,22 @@ Usage
 
 1. Set IP address of Nao in NaoValuesSender
 
-2. Start CORBA name server (see OpenRTM-aist documentation)
+2. Set IP adress of nameserver in rtc.conf and Connector.py
 
-3. Run NaoValuesSender.py
+3. Start CORBA nameserver on server (see OpenRTM-aist documentation)
+
+4. Run NaoValuesSender.py on local computer
  `$ python NaoValuesSender.py`
 
-4. Run ConsoleOut.py
+5. Run ConsoleOut.py on server
  `$ python ConsoleOut.py`
 
-5. Run Connector.py
+6. Run Connector.py on local computer
  `$ python Connector.py`
 
-6. Hit any key in NaoValuesSender console window if prompt
+7. Hit any key in NaoValuesSender console window if prompt
 
-7. See results in ConsoleOut console window
+8. See results in ConsoleOut console window
 
 About
 ======
